@@ -34,6 +34,6 @@ patches:
         # containerd v1.7+ running.  If you know for sure that's not
         # the case, please, set this variable to `true`
         - name: "INSTALL_OFFICIAL_CONTAINERD"
-          value: "false"
+          value: "true"
   target:
     kind: CcRuntime
