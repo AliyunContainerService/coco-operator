@@ -4,4 +4,5 @@ resources:
 # newTag points to the latest release image and must be updated before tagging a new release
 images:
 - name: quay.io/confidential-containers/operator
+  newName: registry-cn-hangzhou.ack.aliyuncs.com/dev/coco-operator
   newTag: v0.13.0
